@@ -1,8 +1,9 @@
 def get_element(lst, index):
- try:
- return lst[index]
- except IndexError as e:
- print(f"IndexError: {e}")
+    try:
+        return lst[index]
+    except IndexError as e:
+        print(f"IndexError: {e}")
+ 
  def main():
  numbers = [1, 2, 3]
  result = get_element(numbers, 5)
